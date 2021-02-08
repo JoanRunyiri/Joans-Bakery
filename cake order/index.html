@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Order</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body{
+      background-image: url("bg-masthead.jpg");
+      object-fit: fill;
+      color: white;}
+
+
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+      <a class="navbar-brand" href="http://localhost:63342/Jojo's%20Bakery/index.html?_ijt=pi664q1p7d6l9jlcj2dfiujqn7"><b>Jojo's Bakery</b></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="http://localhost:63342/Jojo's%20Bakery/index.html?_ijt=pi664q1p7d6l9jlcj2dfiujqn7">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:63342/Jojo's%20Bakery/about%20page/store.html?_ijt=9bpnks3rl1bndvhtdj3s5cvrkl">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:joanrunyiri@gmail.com">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h1 class="mt-5"><b>Jojo's Bakery</b></h1>
+        <p class="lead">Cake Order</p>
+        <ul class="list-unstyled">
+
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.slim.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <form action="payment.html" method="get"><b>
+  <label for="First Name">First Name</label>
+  <input type="text" id="First Name">
+  <label for="Last Name">Last Name</label>
+  <input type="text" id="Last Name"><br><br>
+  <label for="Amount in Kgs">Amount in Kgs</label>
+  <input type="text" id="Amount in Kgs">
+    <label for="Cake Flavour">Cake Flavour</label>
+    <input list="Cake Flavour">
+    <datalist id="Cake Flavour">
+    <option value="Vanilla Cake">
+    <option value="Chocolate Cake">
+    <option value="Red Velvet Cake">
+    <option value="White Forest Cake">
+    <option value="Black Forest Cake">
+  </datalist><br><br>
+
+
+ 
+  <label for="email address">Input Email</label>
+  <input type="email" id="email address"><br><br>
+  <label for="Date Required">Input Date Required</label>
+  <input type="date" id="Date Required"><br><br>
+  <button type="submit" formaction="payment.html">Submit</button></b>
+  </form>
+</body>
+
+</html>
